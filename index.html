@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="shape">
+        <svg xmlns="http://www.w3.org/2000/svg" width="601.191" height="509" viewBox="0 0 601.191 509">
+            <g id="Group_8658" data-name="Group 8658" transform="translate(-328 -389.212)">
+            <path id="Path_30032" data-name="Path 30032" d="M328.017,389.212l-.017,509,601.191-.151V389.212ZM510.6,845.649c-6.126,2.282-82.113-124.335-82.113-124.335L655.13,509.5h89.335l36.666,337.116S516.725,843.368,510.6,845.649Z" transform="translate(0 0)" />
+            </g>
+        </svg>
+    </div>
+
+    <script>
+        var classColors=['green','yellow','purple','orange','green-light'];
+
+        var randomNumber = Math.floor(Math.random() * classColors.length);
+        var classToAdd = classColors[randomNumber];
+
+        document.querySelector('.shape').classList.add(classToAdd);
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+$green:#00969F;
+$yellow:#FAA31A;
+$purple:#963B61;
+$orange:#B03826;
+$green-light:#245C59;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shape {
+    max-width: 90%;
+    margin: auto;
+    svg {
+        width: 100%;
+        height: 100%;
+        fill: $green;
+    }
+    &.green {
+        svg {
+            fill: $green;
+        }
+    }
+
+    &.yellow {
+        svg {
+            fill: $yellow;
+        }
+    }
+
+    &.purple {
+        svg {
+            fill: $purple;
+        }
+    }
+
+    &.orange {
+        svg {
+            fill: $orange;
+        }
+    }
+
+    &.green-light {
+        svg {
+            fill: $green-light;
+        }
+    }
+}

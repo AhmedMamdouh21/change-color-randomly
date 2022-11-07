@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shape {
+  max-width: 90%;
+  margin: auto;
+}
+.shape svg {
+  width: 100%;
+  height: 100%;
+  fill: #00969F;
+}
+.shape.green svg {
+  fill: #00969F;
+}
+.shape.yellow svg {
+  fill: #FAA31A;
+}
+.shape.purple svg {
+  fill: #963B61;
+}
+.shape.orange svg {
+  fill: #B03826;
+}
+.shape.green-light svg {
+  fill: #245C59;
+}/*# sourceMappingURL=style.css.map */
